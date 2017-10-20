@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:ActionApp"
+             x:Class="ActionApp.MainPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Mine knapper"
+           Font="Large"
+           HorizontalOptions="Center"
+           VerticalOptions="CenterAndExpand" />
+
+            <Button Text="Hvornår bliver jeg hentet far"
+            HorizontalOptions="Center"
+            VerticalOptions="CenterAndExpand"
+            Clicked="hentetfar"/>
+            <Button Text="Hvornår bliver jeg hentet mor"
+            HorizontalOptions="Center"
+            VerticalOptions="CenterAndExpand"
+            Clicked="hentetmor"/>
+            <Button Text="Må jeg gå hjem nu far?"
+            HorizontalOptions="Center"
+            VerticalOptions="CenterAndExpand"
+            Clicked="hjemnufar"/>
+            <Button Text="Må jeg gå hjem nu mor?"
+            HorizontalOptions="Center"
+            VerticalOptions="CenterAndExpand"
+            Clicked="hjemnumor"/>
+            <Button Text="Ring til mig far"
+            HorizontalOptions="Center"
+            VerticalOptions="CenterAndExpand"
+            Clicked="ringefar"/>
+            <Button Text="Ring til mig mor"
+            HorizontalOptions="Center"
+            VerticalOptions="CenterAndExpand"
+            Clicked="ringemor"/>
+        </StackLayout>
+
+    </ContentPage.Content>
+</ContentPage>
