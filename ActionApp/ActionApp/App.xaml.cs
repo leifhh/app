@@ -19,9 +19,9 @@ namespace ActionApp
 			InitializeComponent();
 
 			MainPage = new ActionApp.MainPage();
-            MobileCenter.Start("android=bdf57c1c-19b5-4ff2-bde5-0f76ad820da5;" + "uwp={Your UWP App secret here};" +
-           "ios={Your iOS App secret here}",
-           typeof(Analytics), typeof(Crashes));
+            MobileCenter.Start("bdf57c1c-19b5-4ff2-bde5-0f76ad820da5",
+                     typeof(Analytics), typeof(Crashes));
+            typeof(Analytics), typeof(Crashes));
         }
 
 		protected override void OnStart ()
