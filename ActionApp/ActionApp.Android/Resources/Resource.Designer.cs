@@ -41,6 +41,9 @@ namespace ActionApp.Droid
 			global::Microsoft.Azure.Mobile.Distribute.Resource.String.mobile_center_distribute_update_dialog_postpone = global::ActionApp.Droid.Resource.String.mobile_center_distribute_update_dialog_postpone;
 			global::Microsoft.Azure.Mobile.Distribute.Resource.String.mobile_center_distribute_update_dialog_title = global::ActionApp.Droid.Resource.String.mobile_center_distribute_update_dialog_title;
 			global::Microsoft.Azure.Mobile.Distribute.Resource.String.mobile_center_distribute_update_dialog_view_release_notes = global::ActionApp.Droid.Resource.String.mobile_center_distribute_update_dialog_view_release_notes;
+			global::Microsoft.Azure.Mobile.Push.Android.Resource.Integer.google_play_services_version = global::ActionApp.Droid.Resource.Integer.google_play_services_version;
+			global::Microsoft.Azure.Mobile.Push.Android.Resource.String.common_google_play_services_unknown_issue = global::ActionApp.Droid.Resource.String.common_google_play_services_unknown_issue;
+			global::Microsoft.Azure.Mobile.Push.Android.Resource.String.library_name = global::ActionApp.Droid.Resource.String.library_name;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionBarSize = global::ActionApp.Droid.Resource.Attribute.actionBarSize;
 		}
 		
@@ -3743,49 +3746,52 @@ namespace ActionApp.Droid
 			public const int common_google_play_services_unknown_issue = 2131230720;
 			
 			// aapt resource value: 0x7f08003f
-			public const int mobile_center_distribute_dialog_actioned_on_disabled_toast = 2131230783;
+			public const int library_name = 2131230783;
 			
 			// aapt resource value: 0x7f080040
-			public const int mobile_center_distribute_download_progress_number_format = 2131230784;
+			public const int mobile_center_distribute_dialog_actioned_on_disabled_toast = 2131230784;
 			
 			// aapt resource value: 0x7f080041
-			public const int mobile_center_distribute_downloading_mandatory_update = 2131230785;
+			public const int mobile_center_distribute_download_progress_number_format = 2131230785;
 			
 			// aapt resource value: 0x7f080042
-			public const int mobile_center_distribute_install = 2131230786;
+			public const int mobile_center_distribute_downloading_mandatory_update = 2131230786;
 			
 			// aapt resource value: 0x7f080043
-			public const int mobile_center_distribute_install_ready_message = 2131230787;
+			public const int mobile_center_distribute_install = 2131230787;
 			
 			// aapt resource value: 0x7f080044
-			public const int mobile_center_distribute_install_ready_title = 2131230788;
+			public const int mobile_center_distribute_install_ready_message = 2131230788;
 			
 			// aapt resource value: 0x7f080045
-			public const int mobile_center_distribute_notification_category = 2131230789;
+			public const int mobile_center_distribute_install_ready_title = 2131230789;
 			
 			// aapt resource value: 0x7f080046
-			public const int mobile_center_distribute_unknown_sources_dialog_message = 2131230790;
+			public const int mobile_center_distribute_notification_category = 2131230790;
 			
 			// aapt resource value: 0x7f080047
-			public const int mobile_center_distribute_unknown_sources_dialog_settings = 2131230791;
+			public const int mobile_center_distribute_unknown_sources_dialog_message = 2131230791;
 			
 			// aapt resource value: 0x7f080048
-			public const int mobile_center_distribute_update_dialog_download = 2131230792;
+			public const int mobile_center_distribute_unknown_sources_dialog_settings = 2131230792;
 			
 			// aapt resource value: 0x7f080049
-			public const int mobile_center_distribute_update_dialog_message_mandatory = 2131230793;
+			public const int mobile_center_distribute_update_dialog_download = 2131230793;
 			
 			// aapt resource value: 0x7f08004a
-			public const int mobile_center_distribute_update_dialog_message_optional = 2131230794;
+			public const int mobile_center_distribute_update_dialog_message_mandatory = 2131230794;
 			
 			// aapt resource value: 0x7f08004b
-			public const int mobile_center_distribute_update_dialog_postpone = 2131230795;
+			public const int mobile_center_distribute_update_dialog_message_optional = 2131230795;
 			
 			// aapt resource value: 0x7f08004c
-			public const int mobile_center_distribute_update_dialog_title = 2131230796;
+			public const int mobile_center_distribute_update_dialog_postpone = 2131230796;
 			
 			// aapt resource value: 0x7f08004d
-			public const int mobile_center_distribute_update_dialog_view_release_notes = 2131230797;
+			public const int mobile_center_distribute_update_dialog_title = 2131230797;
+			
+			// aapt resource value: 0x7f08004e
+			public const int mobile_center_distribute_update_dialog_view_release_notes = 2131230798;
 			
 			// aapt resource value: 0x7f080001
 			public const int mr_button_content_description = 2131230721;
